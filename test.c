@@ -5,10 +5,11 @@ union test{
 	char c;
 };
 
-void main()
+int main()
 {
 	union test t;
 	t.i=0x1234;
 	
 	printf("%x\n",t.c);
+	return 0;
 }
